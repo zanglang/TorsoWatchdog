@@ -1,0 +1,1143 @@
+<?xml version="1.0" ?>
+<run_config>
+  <suite name="quicktime">
+    <!--
+    suite info: rendering tests to quicktime output formats.
+                using baseline media samples and muvee timelines.
+    -->
+    <run name="quicktime-media.run"/>
+    <run name="quicktime-media-savemov.run"/>
+    <run name="save-MO-MP4 default-baseline.run"/>
+    <run name="save-MO-3GP default-baseline.run"/>
+    <run name="save-ADV-3GP default-baseline.run"/>
+    <run name="save-ADV-MOV default-baseline.run"/>
+    <run name="save-CP-MOV default-baseline.run"/>
+    <run name="save-MO-MP4 default-baseline-fittomusic.run"/>
+    <run name="save-MO-3GP default-baseline-fittomusic.run"/>
+    <run name="save-ADV-3GP default-baseline-fittomusic.run"/>
+    <run enabled="false" name="save-ADV-MOV default-baseline-fittomusic.run"/>
+    <run name="save-CP-MOV default-baseline-fittomusic.run"/>
+  </suite>
+  <suite name="baseline">
+    <!--
+    suite info: baseline tests to cover core functionality.
+                t&c, mSpot, mMoments, anchorvale styles.
+    -->
+    <run name="make-credits-baseline-preview.run"/>
+    <run name="make-title-baseline-preview.run"/>
+    <run name="addcaptions.run"/>
+    <run name="addtargetrects.run"/>
+    <run name="addtargetrects2.run"/>
+    <run name="addhighlights-mpeg1.run"/>
+    <run name="addexclusions-mpeg1.run"/>
+    <run name="addhighlights-mpeg2.run"/>
+    <run name="addexclusions-mpeg2.run"/>
+    <run name="addcaptionhighlights.run"/>
+    <run name="baseline.run"/>
+    <run name="baseline-repeat.run"/>
+    <run name="baseline-S00509_MusicVideo3.run"/>
+    <run name="baseline-S00510_SportHex.run"/>
+    <run name="baseline-S00511_Journal2.run"/>
+    <run name="baseline-S00512_Strips.run"/>
+    <run name="baseline-S00513_Reflections2.run"/>
+    <run name="baseline-S00543_Kinetic.run"/>
+    <run enabled="false" name="baseline-S00514_UltraPlain.run"/>
+    <run name="baseline-S00516_Plain.run"/>
+    <run name="baseline-S00517_Showreel.run"/>
+    <run name="baseline-S00518_Cube.run"/>
+    <run name="baseline-preview.run"/>
+    <run name="baseline-repeat-preview.run"/>
+    <run name="baseline-save.run"/>
+    <run name="baseline-muvee_and_credits-save.run"/>
+    <run name="baseline-muvee_and_title_and_credits-save.run"/>
+    <run name="baseline-title_and_muvee-save.run"/>
+  </suite>
+	<suite name="baseline2">
+		<!--
+    suite info: baseline tests to cover core functionality.
+                t&c, mSpot, mMoments, anchorvale styles.
+    -->
+		<run name="make-credits-baseline-preview.run"/>
+		<run name="make-title-baseline-preview.run"/>
+		<run name="addcaptions.run"/>
+		<run name="addtargetrects.run"/>
+		<run name="addtargetrects2.run"/>
+		<run name="addhighlights-mpeg1.run"/>
+		<run name="addexclusions-mpeg1.run"/>
+		<run name="addhighlights-mpeg2.run"/>
+		<run name="addexclusions-mpeg2.run"/>
+		<run name="addcaptionhighlights.run"/>
+		<run name="baseline2.run"/>
+		<run name="baseline2-repeat.run"/>
+		<run name="baseline2-S00509_MusicVideo3.run"/>
+		<run name="baseline2-S00510_SportHex.run"/>
+		<run name="baseline2-S00511_Journal2.run"/>
+		<run name="baseline2-S00512_Strips.run"/>
+		<run name="baseline2-S00513_Reflections2.run"/>
+		<run name="baseline2-S00543_Kinetic.run"/>
+		<run enabled="false" name="baseline2-S00514_UltraPlain.run"/>
+		<run name="baseline2-S00516_Plain.run"/>
+		<run name="baseline2-S00517_Showreel.run"/>
+		<run name="baseline2-S00518_Cube.run"/>
+		<run name="baseline2-preview.run"/>
+		<run name="baseline2-repeat-preview.run"/>
+		<run name="baseline2-save.run"/>
+		<run name="baseline2-muvee_and_credits-save.run"/>
+		<run name="baseline2-muvee_and_title_and_credits-save.run"/>
+		<run name="baseline2-title_and_muvee-save.run"/>
+	</suite>
+	<suite name="saving-anchorvale">
+    <!--
+    suite info: rendering tests to all anchorvale output formats.
+                using baseline media samples and muvee timelines.
+    -->
+    <run name="save-WMV-HD DEFAULT-baseline.run"/>
+    <run name="save-AVC-HD DEFAULT-baseline.run"/>
+    <run name="save-PSP-baseline.run"/>
+    <run name="save-ADV-H264 default-baseline.run"/>
+    <run name="save-iPod-baseline.run"/>
+    <run name="save-ADV-MPEG1 default-baseline.run"/>
+    <run name="save-ADV-WMV default-baseline.run"/>
+    <run name="save-Burn VCD-baseline.run"/>
+    <run name="save-CP-MPEG1 default-baseline.run"/>
+    <run name="save-CP-WMV default-baseline.run"/>
+    <run name="save-MO-WMV default-baseline.run"/>
+    <run name="save-ADV-AVI default-baseline.run"/>
+    <run name="save-Burn DVD-baseline.run"/>
+    <run name="save-ADV-MPEG2 default-baseline.run"/>
+  </suite>
+  <suite name="saving-simple">
+    <run name="save-640_480_30_avi-baseline.run"/>
+    <run name="save-640_480_30_mov-baseline.run"/>
+    <run name="save-640_480_30_mpeg1-baseline.run"/>
+    <run name="save-640_480_30_mpeg2-baseline.run"/>
+    <run name="save-640_480_30_wmv-baseline.run"/>
+  </suite>
+  <suite name="saving-fit2music">
+    <run name="save-ADV-MPEG1 default-baseline-fittomusic.run"/>
+    <run name="save-ADV-WMV default-baseline-fittomusic.run"/>
+    <run name="save-Burn VCD-baseline-fittomusic.run"/>
+    <run name="save-CP-MPEG1 default-baseline-fittomusic.run"/>
+    <run enabled="false" name="save-CP-WMV default-baseline-fittomusic.run"/>
+    <run name="save-MO-WMV default-baseline-fittomusic.run"/>
+    <run enabled="false" name="save-ADV-AVI default-baseline-fittomusic.run"/>
+    <run name="save-Burn DVD-baseline-fittomusic.run"/>
+    <run enabled="false" name="save-ADV-MPEG2 default-baseline-fittomusic.run"/>
+    <run name="save-WMV-HD DEFAULT-baseline-fittomusic.run"/>
+    <run name="save-ADV-H264 default-baseline-fittomusic.run"/>
+    <run name="save-AVC-HD DEFAULT-baseline-fittomusic.run"/>
+    <run name="save-PSP-baseline-fittomusic.run"/>
+    <run name="save-iPod-baseline-fittomusic.run"/>
+  </suite>
+  <suite name="save-mES-rendering">
+    <run name="save-mpeg1-1280-720-30-baseline.run"/>
+    <run name="save-mpeg1-176-144-15-baseline.run"/>
+    <run name="save-mpeg1-640-480-30-baseline.run"/>
+    <run name="save-mpeg1-320-240-30-baseline.run"/>
+    <run name="save-mpeg1-720-480-29_97-baseline.run"/>
+    <run name="save-mpeg1-352-240-29_97-baseline.run"/>
+    <run name="save-mpeg1-720-480-30-baseline.run"/>
+    <run name="save-mpeg1-368-208-30-baseline.run"/>
+  </suite>
+  <suite name="save-mES-rendering-performance">
+    <run name="save-rawperformance-1280-720-30-baseline.run"/>
+    <run name="save-rawperformance-176-144-15-baseline.run"/>
+    <run name="save-rawperformance-640-480-30-baseline.run"/>
+    <run name="save-rawperformance-320-240-30-baseline.run"/>
+    <run name="save-rawperformance-720-480-29_97-baseline.run"/>
+    <run name="save-rawperformance-352-240-29_97-baseline.run"/>
+    <run name="save-rawperformance-720-480-30-baseline.run"/>
+    <run name="save-rawperformance-368-208-30-baseline.run"/>
+  </suite>
+  <suite name="stress-tests">
+    <run name="stresstest-preview-1hrVideoOnly-Fit2Music.run"/>
+    <run name="stresstest-preview-1hrVideoOnly-Fit2Video.run"/>
+    <run name="stresstest-preview-200Pictures-Fit2Music.run"/>
+    <run name="stresstest-preview-200Pictures-Fit2Video.run"/>
+    <run enabled="false" name="stresstest-saving-1hr-ADV-MPEG2.run"/>
+    <run name="stresstest-saving-1hr-CP-MPEG1.run"/>
+    <run name="stresstest-saving-1hr-Burn-DVD.run"/>
+    <run name="stresstest-saving-200Pictures-Fit2Video-ADV-MPEG2.run"/>
+    <run name="stresstest-saving-200Pictures-Fit2Video-CP-MPEG1.run"/>
+  </suite>
+  <suite name="constructor">
+    <run name="constructor-basic.run"/>
+    <run name="constructor-picturesonly.run"/>
+    <run name="constructor-videoonly.run"/>
+    <run name="constructor-allstyles.run"/>
+    <run name="constructor-allstyles-preview.run"/>
+    <run name="constructor-allstyles-savewmv.run"/>
+    <run name="constructor-alldailystyles.run"/>
+    <run name="constructor-allstyles-savewmv.run"/>
+    <run name="constructor-allstyles-preview.run"/>
+    <run name="constructor-stress.run"/>
+  </suite>
+  <suite name="analysis-polling">
+    <run name="baseline-analysis-5ms.run"/>
+    <run name="baseline-analysis-10ms.run"/>
+    <run name="baseline-analysis-500ms.run"/>
+    <run name="baseline-analysis-30000ms.run"/>
+  </suite>
+  <suite name="saving-fit2visuals">
+    <run name="save-CP-MPEG1 default-baseline-fittovisuals.run"/>
+    <run name="save-CP-WMV default-baseline-fittovisuals.run"/>
+    <run name="save-ADV-AVI default-baseline-fittovisuals.run"/>
+    <run name="save-ADV-MPEG2 default-baseline-fittovisuals.run"/>
+    <run name="save-WMV-HD DEFAULT-baseline-fittovisuals.run"/>
+  </suite>
+  <suite name="anchorvale-smoketest" retain_samples="true">
+    <run name="anchorvale-smoketest-baseline.run"/>
+    <run name="anchorvale-smoketest-previewReflection2.run"/>
+    <run name="anchorvale-smoketest-previewShowReel.run"/>
+    <run name="anchorvale-smoketest-previewMusicVideo3.run"/>
+    <run name="anchorvale-smoketest-previewJournal2.run"/>
+    <run name="anchorvale-smoketest-previewPlain.run"/>
+    <run name="anchorvale-smoketest-previewSportHex.run"/>
+    <run enabled="false" name="anchorvale-smoketest-previewUltraPlain.run"/>
+    <run name="anchorvale-smoketest-previewCube.run"/>
+    <run name="anchorvale-smoketest-previewStrips.run"/>
+    <run name="anchorvale-smoketest-previewKinetic.run"/>
+    <run name="anchorvale-smoketest-allstyles.run"/>
+    <run name="anchorvale-smoketest-sms.run"/>
+  </suite>
+  <suite name="widescreen">
+    <run name="widescreen-smoketest-previewSportHex.run"/>
+    <run name="widescreen-smoketest-previewJournal2.run"/>
+    <run name="widescreen-smoketest-previewShowReel.run"/>
+    <run name="widescreen-smoketest-previewPlain.run"/>
+    <run name="widescreen-smoketest-previewMusicVideo3.run"/>
+    <run name="widescreen-smoketest-previewCube.run"/>
+    <run name="widescreen-smoketest-previewReflection2.run"/>
+    <run enabled="false" name="widescreen-smoketest-previewUltraPlain.run"/>
+    <run name="widescreen-smoketest-previewStrips.run"/>
+    <run name="widescreen-smoketest-previewKinetic.run"/>
+  </suite>
+  <suite name="preview-stress">
+    <run name="preview-scale-320x240-1024-768-10ms.run"/>
+    <run name="preview-scale-640x360-1024-576-10ms.run"/>
+    <run name="preview-seek-5pc_20s.run"/>
+    <run name="preview-switch-16by9to4by3-5pc.run"/>
+  </suite>
+  <suite name="inputmediatest_SPM_MS_MP3_MUO">
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_24kHz_56kbps_JStereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_112kbps_DChannel.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_112kbps_JStereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_112kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_128kbps_DChannel.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_128kbps_JStereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_128kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_160kbps_DChannel.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_160kbps_JStereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_160kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_192kbps_DChannel.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_192kbps_JStereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_192kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_224kbps_DChannel.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44Khz_224kbps_JStereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_224kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_320kbps_DChannel.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_320kbps_JStereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_320kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_Q4_DChannel.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_Q4_JStereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_Mp3_44kHz_Q4_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_Q5_Dchannel.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_Q5_JStereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_Q5_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_Q6_Dchannel.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_Q6_JStereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_Q6_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_Q8_DChannel.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_Q8_JStereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MP3_44kHz_Q8_Stereo.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPM_MS_WAV_MUO">
+    <run name="inputmediatest\inputmediatestM_Music_Only_GSM_44kHz_72kbps_Mono.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_IMAADPCM_44kHz_354kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_MSADPCM_44kHz_355kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_PCM_22kHz_353kbps_Mono.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_PCM_44kHz_1411kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_PCM_48kHz_1536kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_uLaw_44kHz_706kbps_Stereo.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPM_MS_WMA_MUO">
+    <run name="inputmediatest\inputmediatestM_Music_Only_WMA9_44kHz_128kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_WMA9_44kHz_160kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_WMA9_44kHz_192kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_WMA9_44kHz_256kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_WMA9_44kHz_320kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_WMA9_44kHz_64kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_WMA9_44kHz_96kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_WMA9_44kHz_Q10_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_WMA9_44kHz_Q50_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_WMA9_44kHz_Q75_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_WMA9_44kHz_Q90_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_WMA9_44kHz_Q98_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_WMA9P_44kHz_128kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_WMA9P_44kHz_192kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_WMA9P_44kHz_256kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_WMA9P_44kHz_384kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_WMA9P_44kHz_440kbps_Stereo.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPM_QT_M4A_MUO">
+    <run name="inputmediatest\inputmediatestM_Music_Only_AACHE_44kHz_128kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_AACHE2_44kHz_128kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_AACLC_44kHz_112kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_AACLC_44kHz_128kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_AACLC_44kHz_160kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_AACLC_44kHz_192kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_AACLC_44kHz_224kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_AACLC_44kHz_320kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_AACLC_44kHz_64kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_AACLC_44kHz_96kbps_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_AACLC_44kHz_Q10_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_AACLC_44kHz_Q20_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_AACLC_44kHz_Q30_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_AACLC_44kHz_Q40_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_AACLC_44kHz_Q50_Stereo.run"/>
+    <run name="inputmediatest\inputmediatestM_Music_Only_AACLC_44kHz_Q60_Stereo.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_MC_AVC_MSS">
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_AVCHD-15M-XP_1440x1080.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_AVCHD-9M-HQ_1440x1080.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_H264_AC3_AVCHD_1440x1080.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_MC_AVC_MUO">
+    <run name="inputmediatest\inputmediatestV_Music_Only_AVCHD-9M-HQ_1440x1080.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_H264_AC3_AVCHD_1440x1080.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_MC_AVC_SSO">
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_AVCHD-7M-SP_1440x1080.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_AVCHD-9M-HQ_1440x1080.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_MC_MPG_MSS">
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MPEG2_MPEG1L2_MPG_25fps_720x576_6003kbps_48kHz_224kbps_Camcorder.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_MC_MPG_MUO">
+    <run name="inputmediatest\inputmediatestV_Music_Only_MPEG2_MPEG1L2_MPG_25fps_720x576_6003kbps_48kHz_224kbps_Camcorder.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_MC_MPG_SSO">
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MPEG2_MPEG1L2_MPG_25fps_720x576_6003kbps_48kHz_224kbps_Camcorder.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_MQ_MP4_MSS">
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_H264_AACLC_MP4_15fps_320x240_497kbps_48kHz_128kbps_Xacti.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_H264_AACLC_MP4_25fps_320x240_300kbps_44-1kHz_80kbps_iPOD_MC.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_H264_AACLC_MP4_29-97fps_320x240_600kbps_48kHz_Q20_PSP_MC.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_H264_AACLC_MP4_29-97fps_368x208_600kbps_48kHz_Q20_PSP_MC.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_H264_AACLC_MP4_29-97fps_480x272_600kbps_48kHz_Q20_PSP_MC.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_H264_AACLC_MP4_29-97fps_640x480_1500kbps_48kHz_128kbps_Xacti.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_H264_AACLC_MP4_30fps_320x240_745kbps_48kHz_128kbps_Xacti.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4V_AACLC_MP4_10-56fps_640x480_559kbps_16kHz_22kbps_N90.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4v_AACLC_MP4_15fps_320x240_384kbps_48kHz_128kbps_iTunes.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4V_AACLC_MP4_15fps_320x240_768kbps_24kHz_128kbps_PSP.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4V_AACLC_MP4_15fps_352x288_461kbps_16kHz_48kbps_N80.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4v_AACLC_MP4_15fps_352x288_461kbps_32kHz_48kbps_N90.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4v_AACLC_MP4_15fps_352x288_691kbps_16kHz_48kbps_N73.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4V_AACLC_MP4_21-70fps_640x480_2700kbps_48kHz_192kbps_N90.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4v_AACLC_MP4_29-97fps_320x240_2000kbps_48kHz_128kbps_iTunes.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4v_AACLC_MP4_29-97fps_320x240_3000kbps_48kHz_128kbps_iTunes.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4v_AACLC_MP4_29-97fps_368x208_600kbps_24kHz_64kbps_PSP_MC.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4V_AACLC_MP4_7fps_352x288_461kbps_16kHz_48kbps_N80.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4vASP_AACLC_MP4_25fps_320x240_700kbps_44-1kHz_120kbps_iPOD_MC.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_MQ_MP4_MUO">
+    <run name="inputmediatest\inputmediatestV_Music_Only_H264_AACLC_MP4_15fps_320x240_497kbps_48kHz_128kbps_Xacti.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_H264_AACLC_MP4_25fps_320x240_300kbps_44-1kHz_80kbps_iPOD_MC.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_H264_AACLC_MP4_29-97fps_320x240_600kbps_48kHz_Q20_PSP_MC.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_H264_AACLC_MP4_29-97fps_480x272_600kbps_48kHz_Q20_PSP_MC.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_H264_AACLC_MP4_29-97fps_640x480_1500kbps_48kHz_128kbps_Xacti.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_H264_AACLC_MP4_30fps_320x240_745kbps_48kHz_128kbps_Xacti.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4V_AACLC_MP4_10-56fps_640x480_559kbps_16kHz_22kbps_N90.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4v_AACLC_MP4_15fps_320x240_384kbps_48kHz_128kbps_iTunes.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4V_AACLC_MP4_15fps_320x240_768kbps_24kHz_128kbps_PSP.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4V_AACLC_MP4_15fps_352x288_461kbps_16kHz_48kbps_N80.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4v_AACLC_MP4_15fps_352x288_461kbps_32kHz_48kbps_N90.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4v_AACLC_MP4_15fps_352x288_691kbps_16kHz_48kbps_N73.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4V_AACLC_MP4_21-70fps_640x480_2700kbps_48kHz_192kbps_N90.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4v_AACLC_MP4_29-97fps_320x240_2000kbps_48kHz_128kbps_iTunes.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4v_AACLC_MP4_29-97fps_320x240_3000kbps_48kHz_128kbps_iTunes.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4v_AACLC_MP4_29-97fps_320x240_600kbps_24kHz_64kbps_PSP_MC.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4v_AACLC_MP4_29-97fps_368x208_600kbps_24kHz_64kbps_PSP_MC.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4V_AACLC_MP4_7fps_352x288_461kbps_16kHz_48kbps_N80.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4vASP_AACLC_MP4_25fps_320x240_700kbps_44-1kHz_120kbps_iPOD_MC.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_MQ_MP4_SSO">
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_H264_AACLC_MP4_15fps_320x240_497kbps_48kHz_128kbps_Xacti.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_H264_AACLC_MP4_25fps_320x240_300kbps_44-1kHz_80kbps_iPOD_MC.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_H264_AACLC_MP4_29-97fps_320x240_600kbps_48kHz_Q20_PSP_MC.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_H264_AACLC_MP4_29-97fps_480x272_600kbps_48kHz_Q20_PSP_MC.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_H264_AACLC_MP4_29-97fps_640x480_1500kbps_48kHz_128kbps_Xacti.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_H264_AACLC_MP4_30fps_320x240_745kbps_48kHz_128kbps_Xacti.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4V_AACLC_MP4_10-56fps_640x480_559kbps_16kHz_22kbps_N90.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4v_AACLC_MP4_15fps_320x240_384kbps_48kHz_128kbps_iTunes.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4V_AACLC_MP4_15fps_320x240_768kbps_24kHz_128kbps_PSP.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4V_AACLC_MP4_15fps_352x288_461kbps_16kHz_48kbps_N80.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4v_AACLC_MP4_15fps_352x288_461kbps_32kHz_48kbps_N90.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4v_AACLC_MP4_15fps_352x288_691kbps_16kHz_48kbps_N73.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4V_AACLC_MP4_21-70fps_640x480_2700kbps_48kHz_192kbps_N90.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4v_AACLC_MP4_29-97fps_320x240_2000kbps_48kHz_128kbps_iTunes.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4v_AACLC_MP4_29-97fps_320x240_3000kbps_48kHz_128kbps_iTunes.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4v_AACLC_MP4_29-97fps_320x240_600kbps_24kHz_64kbps_PSP_MC.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4v_AACLC_MP4_29-97fps_368x208_600kbps_24kHz_64kbps_PSP_MC.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4V_AACLC_MP4_7fps_352x288_461kbps_16kHz_48kbps_N80.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4vASP_AACLC_MP4_25fps_320x240_700kbps_44-1kHz_120kbps_iPOD_MC.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_MS_ASF_MSS">
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_M4S2_DVIADPCM_ASF_15fps_640x480_708kbps_16kHz_64kbps_KinPoDV820.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_M4S2_DVIADPCM_ASF_20fps_320x240_409kbps_8kHz_32kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_M4S2_DVIADPCM_ASF_20fps_640x480_1564kbps_16kHz_64kbps_KinPoDV820.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_M4S2_DVIADPCM_ASF_24fps_320x240_464kbps_16kHz_64kbps_KinPoDV820.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_M4S2_DVIADPCM_ASF_30fps_320x240_880kbps_16kHz_64kbps_KinPoDV820.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_M4S2_DVIADPCM_ASF_fps_320x240_616kbps_16kHz_64kbps_DVS20.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4S_DVIADPCM_ASF_29-97fps_352x288_1514kbps_24kHz_96kbps_Mustek.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV7_WMA8_ASF_25fps_320x240_195kbps_32kHz_32kbps_CinaxWinVCR.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_MS_ASF_MUO">
+    <run name="inputmediatest\inputmediatestV_Music_Only_M4S2_DVIADPCM_ASF_15fps_640x480_708kbps_16kHz_64kbps_KinPoDV820.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_M4S2_DVIADPCM_ASF_20fps_320x240_409kbps_8kHz_32kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_M4S2_DVIADPCM_ASF_20fps_640x480_1564kbps_16kHz_64kbps_KinPoDV820.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_M4S2_DVIADPCM_ASF_24fps_320x240_464kbps_16kHz_64kbps_KinPoDV820.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_M4S2_DVIADPCM_ASF_24fps_640x480_3257kbps_16kHz_64kbps_KinPoDV820.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_M4S2_DVIADPCM_ASF_30fps_320x240_880kbps_16kHz_64kbps_KinPoDV820.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_M4S2_DVIADPCM_ASF_fps_320x240_616kbps_16kHz_64kbps_DVS20.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4S_DVIADPCM_ASF_29-97fps_352x288_1514kbps_24kHz_96kbps_Mustek.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV7_WMA8_ASF_25fps_320x240_195kbps_32kHz_32kbps_CinaxWinVCR.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_MS_ASF_SSO">
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_M4S2_DVIADPCM_ASF_20fps_320x240_409kbps_8kHz_32kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_M4S2_DVIADPCM_ASF_24fps_320x240_464kbps_16kHz_64kbps_KinPoDV820.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_M4S2_DVIADPCM_ASF_30fps_320x240_880kbps_16kHz_64kbps_KinPoDV820.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_M4S2_DVIADPCM_ASF_fps_320x240_616kbps_16kHz_64kbps_DVS20.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4S_DVIADPCM_ASF_29-97fps_352x288_1514kbps_24kHz_96kbps_Mustek.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV7_WMA8_ASF_25fps_320x240_195kbps_32kHz_32kbps_CinaxWinVCR.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_MS_AVI_MSS">
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_CVID_PCM_AVI_15fps_320x240_2418kbps_8kHz_128kbps_VideoTraxx.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_DivX5_DVIADPCM_AVI_30fps_640x480_4039kbps_16kHz_64kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_DivX511_MP3_AVI_25fps_640x480_3067kbps_22kHz_128kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_DivXFM_PCM_AVI_29fps_720x480_204kbps_44kHz_1411kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_DivXLM_PCM_AVI_29fps_720x480_204kbps_44kHz_1411kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_DV_DV_AVI_29-97fps_720x480_32kHz_DVCam.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_DV_DVA_AVI_29-97fps_720x480_28798kbps_32kHz_DVCam.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MJEPG_DVIADPCM_AVI_19fps_320x240_989kbps_8kHz_32kbps_MicroTek.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MJPEG_DVIADPCM_AVI_10fps_448x336_763kbps_8kHz_32kbps_CheezCamera.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MJPEG_DVIADPCM_AVI_15fps_320x240_648kbps_8kHz_32kbps_MattelVidster.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MJPEG_PCM_AVI_15fps_320x240_1292kbps_16kHz_256kbps_CanonElura50.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MJPEG_PCM_AVI_15fps_320x240_1510kbps_16kHz_256kbps_CanonElura50.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MJPEG_PCM_AVI_15fps_320x240_1630kbps_11kHz_88kbps_PowerShotS.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MJPEG_PCM_AVI_15fps_320x240_1742kbps_16kHz_256kbps_CanonElura50.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MJPEG_PCM_AVI_15fps_320x240_2270kbps_11kHz_88kbps_PowerShotS.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MPJEG_DVIADPCM_AVI_19fps_320x240_885kbps_8kHz_32kbps_MicroTek.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_RAWBI_AVI_7fps_176x160_4730kbps_noaudio_Samsung.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_RAWBI_AVI_8fps_176x160_5406kbps_noaudio_Samsung.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_RAWBI_DVIADPCM_AVI_19fps_320x240_34827kbps_8kHz_32kbps_MicroTek.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_RAWBI_PCM_AVI_12-5fps_176x144_7603kbps_44-1kHz_1411kbps_Samsung.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_Xvid_ADPCM_AVI_30fps_640x480_1335kbps_16kHz_64kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_Xvid_ADPCM_AVI_30fps_640x480_2301kbps_16kHz_64kbps.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_MS_AVI_MUO">
+    <run name="inputmediatest\inputmediatestV_Music_Only_CVID_PCM_AVI_15fps_320x240_2418kbps_8kHz_128kbps_VideoTraxx.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_DivX5_DVIADPCM_AVI_30fps_640x480_4039kbps_16kHz_64kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_DivX511_MP3_AVI_25fps_640x480_3067kbps_22kHz_128kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_DivXFM_PCM_AVI_29fps_720x480_204kbps_44kHz_1411kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_DivXLM_PCM_AVI_29fps_720x480_204kbps_44kHz_1411kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_DV_DV_AVI_29-97fps_720x480_32kHz_DVCam.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_DV_DVA_AVI_29-97fps_720x480_28798kbps_32kHz_DVCam.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MJEPG_DVIADPCM_AVI_19fps_320x240_989kbps_8kHz_32kbps_MicroTek.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MJPEG_DVIADPCM_AVI_10fps_448x336_763kbps_8kHz_32kbps_CheezCamera.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MJPEG_DVIADPCM_AVI_15fps_320x240_648kbps_8kHz_32kbps_MattelVidster.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MJPEG_PCM_AVI_15fps_320x240_1292kbps_16kHz_256kbps_CanonElura50.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MJPEG_PCM_AVI_15fps_320x240_1510kbps_16kHz_256kbps_CanonElura50.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MJPEG_PCM_AVI_15fps_320x240_1630kbps_11kHz_88kbps_PowerShotS.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MJPEG_PCM_AVI_15fps_320x240_1742kbps_16kHz_256kbps_CanonElura50.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MJPEG_PCM_AVI_15fps_320x240_2270kbps_11kHz_88kbps_PowerShotS.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MPJEG_DVIADPCM_AVI_19fps_320x240_885kbps_8kHz_32kbps_MicroTek.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_RAWBI_AVI_7fps_176x160_4730kbps_noaudio_Samsung.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_RAWBI_AVI_8fps_176x160_5406kbps_noaudio_Samsung.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_RAWBI_DVIADPCM_AVI_19fps_320x240_34827kbps_8kHz_32kbps_MicroTek.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_RAWBI_PCM_AVI_12-5fps_176x144_7603kbps_44-1kHz_1411kbps_Samsung.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_Xvid_ADPCM_AVI_30fps_640x480_1335kbps_16kHz_64kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_Xvid_ADPCM_AVI_30fps_640x480_2301kbps_16kHz_64kbps.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_MS_AVI_SSO">
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_CVID_PCM_AVI_15fps_320x240_2418kbps_8kHz_128kbps_VideoTraxx.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_DivX5_DVIADPCM_AVI_30fps_640x480_4039kbps_16kHz_64kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_DivX511_MP3_AVI_25fps_640x480_3067kbps_22kHz_128kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_DivXFM_PCM_AVI_29fps_720x480_204kbps_44kHz_1411kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_DivXLM_PCM_AVI_29fps_720x480_204kbps_44kHz_1411kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_DV_DV_AVI_29-97fps_720x480_32kHz_DVCam.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_DV_DVA_AVI_29-97fps_720x480_28798kbps_32kHz_DVCam.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MJEPG_DVIADPCM_AVI_19fps_320x240_989kbps_8kHz_32kbps_MicroTek.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MJPEG_DVIADPCM_AVI_10fps_448x336_763kbps_8kHz_32kbps_CheezCamera.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MJPEG_DVIADPCM_AVI_15fps_320x240_648kbps_8kHz_32kbps_MattelVidster.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MJPEG_PCM_AVI_15fps_320x240_1292kbps_16kHz_256kbps_CanonElura50.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MJPEG_PCM_AVI_15fps_320x240_1510kbps_16kHz_256kbps_CanonElura50.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MJPEG_PCM_AVI_15fps_320x240_1630kbps_11kHz_88kbps_PowerShotS.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MJPEG_PCM_AVI_15fps_320x240_1742kbps_16kHz_256kbps_CanonElura50.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MJPEG_PCM_AVI_15fps_320x240_2270kbps_11kHz_88kbps_PowerShotS.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MPJEG_DVIADPCM_AVI_19fps_320x240_885kbps_8kHz_32kbps_MicroTek.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_RAWBI_AVI_7fps_176x160_4730kbps_noaudio_Samsung.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_RAWBI_AVI_8fps_176x160_5406kbps_noaudio_Samsung.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_RAWBI_DVIADPCM_AVI_19fps_320x240_34827kbps_8kHz_32kbps_MicroTek.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_RAWBI_PCM_AVI_12-5fps_176x144_7603kbps_44-1kHz_1411kbps_Samsung.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_Xvid_ADPCM_AVI_30fps_640x480_1335kbps_16kHz_64kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_Xvid_ADPCM_AVI_30fps_640x480_2301kbps_16kHz_64kbps.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_MS_MPG_MSS">
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MPEG1_MPEG1L2_MPG_24fps_256x192_334kbps_48kHz_32kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MPEG1_MPEG1L2_MPG_25fps_160x112_125kbps_44-1kHz_32kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MPEG1_MPEG1L2_MPG_25fps_192x144_319kbps_32kHz_96kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MPEG1_MPEG1L2_MPG_25fps_352x288_485kbps_44-1kHz_48kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MPEG1_MPEG1L2_MPG_29-970fps_352x240_1150kbps_44-1kHz_224kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MPEG1_MPEG1L2_MPG_29-97fps_352x240_1120kbps_44-1kHz_224kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MPEG1_MPG_25fps_720x576_2855kbps_noaudio.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_MS_MPG_MUO">
+    <run name="inputmediatest\inputmediatestV_Music_Only_MPEG1_MPEG1L2_MPG_24fps_256x192_334kbps_48kHz_32kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MPEG1_MPEG1L2_MPG_25fps_160x112_125kbps_44-1kHz_32kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MPEG1_MPEG1L2_MPG_25fps_192x144_319kbps_32kHz_96kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MPEG1_MPEG1L2_MPG_25fps_352x288_485kbps_44-1kHz_48kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MPEG1_MPEG1L2_MPG_29-970fps_352x240_1150kbps_44-1kHz_224kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MPEG1_MPEG1L2_MPG_29-97fps_352x240_1120kbps_44-1kHz_224kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MPEG1_MPG_25fps_720x576_2855kbps_noaudio.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_MS_MPG_SSO">
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MPEG1_MPEG1L2_MPG_24fps_256x192_334kbps_48kHz_32kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MPEG1_MPEG1L2_MPG_25fps_160x112_125kbps_44-1kHz_32kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MPEG1_MPEG1L2_MPG_25fps_192x144_319kbps_32kHz_96kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MPEG1_MPEG1L2_MPG_25fps_352x288_485kbps_44-1kHz_48kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MPEG1_MPEG1L2_MPG_29-970fps_352x240_1150kbps_44-1kHz_224kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MPEG1_MPEG1L2_MPG_29-97fps_352x240_1120kbps_44-1kHz_224kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MPEG1_MPG_25fps_720x576_2855kbps_noaudio.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_MS_WMV_MSS">
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV7_WMA_WMV_8fps_208x160__143kbps_32kHz_20kbps_VideoTraxx.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV7_WMA9_WMV_15fps_160x120_20kbps_8kHz_5kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV7_WMA9_WMV_15fps_176x144_32kbps_11kHz_10kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV7_WMA9_WMV_15fps_320x240_100kbps_16kHz_16kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV7_WMA9_WMV_15fps_320x240_225kbps_32kHz_40kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV7_WMA9_WMV_24fps_320x240_Q97VBR_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV7_WMA9_WMV_30fps_320x240_1400kbps_44-1kHz_128kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV7_WMA9_WMV_30fps_320x240_350kbps_32kHz_48kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV7_WMA9_WMV_30fps_320x240_450kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV7_WMA9_WMV_30fps_320x240_700kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV7_WMA9_WMV_30fps_384x288_350kbps_32kHz_48kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV7_WMA9_WMV_30fps_384x288_700kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV8_WMA9_WMV_15fps_160x120_20kbps_8kHz_5kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV8_WMA9_WMV_15fps_176x144_32kbps_11kHz_10kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV8_WMA9_WMV_15fps_320x240_100kbps_16kHz_16kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV8_WMA9_WMV_15fps_320x240_225kbps_32kHz_40kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV8_WMA9_WMV_24fps_320x240_Q97VBR_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV8_WMA9_WMV_30fps_320x240_1400kbps_44-1kHz_128kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV8_WMA9_WMV_30fps_320x240_350kbps_32kHz_48kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV8_WMA9_WMV_30fps_320x240_450kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV8_WMA9_WMV_30fps_320x240_700kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV8_WMA9_WMV_30fps_384x288_350kbps_32kHz_48kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV8_WMA9_WMV_30fps_384x288_700kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV9_WMA_WMV_29fps_1280x720_5128kbps_48kHz_128kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV9_WMA9_WMV_15fps_160x120_20kbps_8kHz_5kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV9_WMA9_WMV_15fps_176x144_32kbps_11kHz_10kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV9_WMA9_WMV_15fps_320x240_100kbps_16kHz_16kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV9_WMA9_WMV_15fps_320x240_225kbps_32kHz_40kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV9_WMA9_WMV_24fps_320x240_Q97VBR_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV9_WMA9_WMV_30fps_320x240_1400kbps_44-1kHz_128kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV9_WMA9_WMV_30fps_320x240_350kbps_32kHz_48kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV9_WMA9_WMV_30fps_320x240_450kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV9_WMA9_WMV_30fps_320x240_700kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV9_WMA9_WMV_30fps_384x288_350kbps_32kHz_48kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV9_WMA9_WMV_30fps_384x288_700kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV9P_WMA10P_WMV_23fps_1280x720_9031kbps_48kHz_440kbps_MS.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV9P_WMA9P_WMV_23fps_1280x720_8440kbps_48kHz_440kbps_MS.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV9P_WMA9P_WMV_23fps_1280x720_9440kbps_44kHz_440kbps_MS.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV9P_WMA9P_WMV_23fps_1280x720_9440kbps_48kHz_440kbps_MS.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_MS_WMV_MUO">
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV7_WMA_WMV_8fps_208x160__143kbps_32kHz_20kbps_VideoTraxx.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV7_WMA9_WMV_15fps_160x120_20kbps_8kHz_5kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV7_WMA9_WMV_15fps_176x144_32kbps_11kHz_10kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV7_WMA9_WMV_15fps_320x240_100kbps_16kHz_16kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV7_WMA9_WMV_15fps_320x240_225kbps_32kHz_40kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV7_WMA9_WMV_24fps_320x240_Q97VBR_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV7_WMA9_WMV_30fps_320x240_1400kbps_44-1kHz_128kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV7_WMA9_WMV_30fps_320x240_350kbps_32kHz_48kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV7_WMA9_WMV_30fps_320x240_450kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV7_WMA9_WMV_30fps_320x240_700kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV7_WMA9_WMV_30fps_384x288_350kbps_32kHz_48kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV7_WMA9_WMV_30fps_384x288_700kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV8_WMA9_WMV_15fps_160x120_20kbps_8kHz_5kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV8_WMA9_WMV_15fps_176x144_32kbps_11kHz_10kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV8_WMA9_WMV_15fps_320x240_100kbps_16kHz_16kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV8_WMA9_WMV_15fps_320x240_225kbps_32kHz_40kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV8_WMA9_WMV_24fps_320x240_Q97VBR_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV8_WMA9_WMV_30fps_320x240_1400kbps_44-1kHz_128kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV8_WMA9_WMV_30fps_320x240_350kbps_32kHz_48kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV8_WMA9_WMV_30fps_320x240_450kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV8_WMA9_WMV_30fps_320x240_700kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV8_WMA9_WMV_30fps_384x288_350kbps_32kHz_48kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV8_WMA9_WMV_30fps_384x288_700kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV9_WMA_WMV_29fps_1280x720_5128kbps_48kHz_128kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV9_WMA9_WMV_15fps_160x120_20kbps_8kHz_5kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV9_WMA9_WMV_15fps_176x144_32kbps_11kHz_10kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV9_WMA9_WMV_15fps_320x240_100kbps_16kHz_16kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV9_WMA9_WMV_15fps_320x240_225kbps_32kHz_40kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV9_WMA9_WMV_24fps_320x240_Q97VBR_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV9_WMA9_WMV_30fps_320x240_1400kbps_44-1kHz_128kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV9_WMA9_WMV_30fps_320x240_350kbps_32kHz_48kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV9_WMA9_WMV_30fps_320x240_450kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV9_WMA9_WMV_30fps_320x240_700kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV9_WMA9_WMV_30fps_384x288_350kbps_32kHz_48kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV9_WMA9_WMV_30fps_384x288_700kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV9P_WMA10P_WMV_23fps_1280x720_9031kbps_48kHz_440kbps_MS.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV9P_WMA9P_WMV_23fps_1280x720_8440kbps_48kHz_440kbps_MS.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV9P_WMA9P_WMV_23fps_1280x720_9440kbps_44kHz_440kbps_MS.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV9P_WMA9P_WMV_23fps_1280x720_9440kbps_48kHz_440kbps_MS.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_MS_WMV_SSO">
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV7_WMA_WMV_8fps_208x160__143kbps_32kHz_20kbps_VideoTraxx.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV7_WMA9_WMV_15fps_160x120_20kbps_8kHz_5kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV7_WMA9_WMV_15fps_176x144_32kbps_11kHz_10kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV7_WMA9_WMV_15fps_320x240_100kbps_16kHz_16kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV7_WMA9_WMV_15fps_320x240_225kbps_32kHz_40kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV7_WMA9_WMV_24fps_320x240_Q97VBR_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV7_WMA9_WMV_30fps_320x240_1400kbps_44-1kHz_128kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV7_WMA9_WMV_30fps_320x240_350kbps_32kHz_48kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV7_WMA9_WMV_30fps_320x240_450kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV7_WMA9_WMV_30fps_320x240_700kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV7_WMA9_WMV_30fps_384x288_350kbps_32kHz_48kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV7_WMA9_WMV_30fps_384x288_700kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV8_WMA9_WMV_15fps_160x120_20kbps_8kHz_5kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV8_WMA9_WMV_15fps_176x144_32kbps_11kHz_10kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV8_WMA9_WMV_15fps_320x240_100kbps_16kHz_16kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV8_WMA9_WMV_15fps_320x240_225kbps_32kHz_40kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV8_WMA9_WMV_24fps_320x240_Q97VBR_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV8_WMA9_WMV_30fps_320x240_1400kbps_44-1kHz_128kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV8_WMA9_WMV_30fps_320x240_350kbps_32kHz_48kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV8_WMA9_WMV_30fps_320x240_450kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV8_WMA9_WMV_30fps_320x240_700kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV8_WMA9_WMV_30fps_384x288_350kbps_32kHz_48kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV8_WMA9_WMV_30fps_384x288_700kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV9_WMA_WMV_29fps_1280x720_5128kbps_48kHz_128kbps.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV9_WMA9_WMV_15fps_160x120_20kbps_8kHz_5kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV9_WMA9_WMV_15fps_176x144_32kbps_11kHz_10kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV9_WMA9_WMV_15fps_320x240_100kbps_16kHz_16kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV9_WMA9_WMV_15fps_320x240_225kbps_32kHz_40kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV9_WMA9_WMV_24fps_320x240_Q97VBR_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV9_WMA9_WMV_30fps_320x240_1400kbps_44-1kHz_128kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV9_WMA9_WMV_30fps_320x240_350kbps_32kHz_48kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV9_WMA9_WMV_30fps_320x240_450kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV9_WMA9_WMV_30fps_320x240_700kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV9_WMA9_WMV_30fps_384x288_350kbps_32kHz_48kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV9_WMA9_WMV_30fps_384x288_700kbps_44-1kHz_64kbps_WME.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV9P_WMA10P_WMV_23fps_1280x720_9031kbps_48kHz_440kbps_MS.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV9P_WMA9P_WMV_23fps_1280x720_8440kbps_48kHz_440kbps_MS.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV9P_WMA9P_WMV_23fps_1280x720_9440kbps_44kHz_440kbps_MS.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV9P_WMA9P_WMV_23fps_1280x720_9440kbps_48kHz_440kbps_MS.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_QT_3GP_MSS">
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_H263_3GP_15fps_176x144_61kbps_noaudio_N80.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_H263_3GP_7-5fps_176x144_129kbps_noaudio_N80.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_H263_AMRNB_3GP_12fps_176x144_78kbps_1kHz_MotoZ6.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_H263_AMRNB_3GP_15fps_128x96_111kbps_8kHz_N6233.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_H263_AMRNB_3GP_15fps_128x96_58kbps_1kHz_MotoZ6.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_H263_AMRNB_3GP_15fps_128x96_82kbps_8kHz_TyTn2.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_H263_AMRNB_3GP_15fps_176x144_142kpbs_8kHz_N90.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_H263_AMRNB_3GP_15fps_176x144_146kbps_8kHz_N73.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_H263_AMRNB_3GP_15fps_176x144_74kbps_8kHz_Tytn2.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_H263_AMRNB_3GP_15fps_352x288_2048kpbs_8kHz_TyTn2.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4V_AMRNB_3GP_13-5fps_320x240_61kbps_1kHz_MotoZ8.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4V_AMRNB_3GP_14fps_176x144_61kbps_1kHz_MotoZ8.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4v_AMRNB_3GP_15fps_352x288_384kbps_8kHz_N6233.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_mp4v_AMRNB_3GP_15fps_640x480_2048kbps_8kHz_N6233.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_QT_3GP_MUO">
+    <run name="inputmediatest\inputmediatestV_Music_Only_H263_3GP_15fps_176x144_61kbps_noaudio_N80.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_H263_3GP_7-5fps_176x144_129kbps_noaudio_N80.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_H263_AMRNB_3GP_12fps_176x144_78kbps_1kHz_MotoZ6.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_H263_AMRNB_3GP_15fps_128x96_111kbps_8kHz_N6233.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_H263_AMRNB_3GP_15fps_128x96_58kbps_1kHz_MotoZ6.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_H263_AMRNB_3GP_15fps_128x96_82kbps_8kHz_TyTn2.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_H263_AMRNB_3GP_15fps_176x144_142kpbs_8kHz_N90.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_H263_AMRNB_3GP_15fps_176x144_146kbps_8kHz_N73.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_H263_AMRNB_3GP_15fps_176x144_74kbps_8kHz_Tytn2.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_H263_AMRNB_3GP_15fps_352x288_2048kpbs_8kHz_TyTn2.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4V_AMRNB_3GP_13-5fps_128x96_61kbps_1kHz_MotoZ8.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4V_AMRNB_3GP_13-5fps_320x240_61kbps_1kHz_MotoZ8.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4V_AMRNB_3GP_14fps_176x144_61kbps_1kHz_MotoZ8.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4v_AMRNB_3GP_15fps_352x288_384kbps_8kHz_N6233.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_mp4v_AMRNB_3GP_15fps_640x480_2048kbps_8kHz_N6233.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_QT_3GP_SSO">
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_H263_3GP_15fps_176x144_61kbps_noaudio_N80.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_H263_3GP_7-5fps_176x144_129kbps_noaudio_N80.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_H263_AMRNB_3GP_12fps_176x144_78kbps_1kHz_MotoZ6.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_H263_AMRNB_3GP_15fps_128x96_111kbps_8kHz_N6233.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_H263_AMRNB_3GP_15fps_128x96_58kbps_1kHz_MotoZ6.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_H263_AMRNB_3GP_15fps_128x96_82kbps_8kHz_TyTn2.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_H263_AMRNB_3GP_15fps_176x144_142kpbs_8kHz_N90.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_H263_AMRNB_3GP_15fps_176x144_146kbps_8kHz_N73.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_H263_AMRNB_3GP_15fps_176x144_74kbps_8kHz_Tytn2.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_H263_AMRNB_3GP_15fps_352x288_2048kpbs_8kHz_TyTn2.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4V_AMRNB_3GP_13-5fps_320x240_61kbps_1kHz_MotoZ8.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4V_AMRNB_3GP_14fps_176x144_61kbps_1kHz_MotoZ8.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4v_AMRNB_3GP_15fps_352x288_384kbps_8kHz_N6233.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_mp4v_AMRNB_3GP_15fps_640x480_2048kbps_8kHz_N6233.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_QT_MOV_MSS">
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_AJPEG_ARAW_MOV_15fps_640x480_4500kbps_7kHz_63kbps_Nikon.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_AJPEG_MOV_29-97fps_720x486_3329kbps_noaudio_VideoTraxx.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_AJPEG_TWOS_MOV_15fps_320x240_1974kbps_8kHz_KMDZ3.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_AJPEG_TWOS_MOV_15fps_320x240_3497kbps_8kHz_KMDZ3.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_AJPEG_TWOS_MOV_15fps_640x480_3979kbps_8kHz_KMDZ3.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_AJPEG_TWOS_MOV_15fps_640x480_4082kbps_8kHz_KMDZ3.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_AJPEG_TWOS_MOV_30fps_640x480_7873kbps_8kHz_KMDZ3.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_AJPEG_TWOS_MOV_30fps_640x480_8430kbps_8kHz_KMDZ3.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_H263_uLaw_MOV_15fps_320x240_1800kbps_8kHz_64kbps_DX6440.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_QT_MOV_MUO">
+    <run name="inputmediatest\inputmediatestV_Music_Only_AJPEG_ARAW_MOV_15fps_640x480_4500kbps_7kHz_63kbps_Nikon.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_AJPEG_MOV_29-97fps_720x486_3329kbps_noaudio_VideoTraxx.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_AJPEG_TWOS_MOV_15fps_320x240_1974kbps_8kHz_KMDZ3.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_AJPEG_TWOS_MOV_15fps_320x240_3497kbps_8kHz_KMDZ3.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_AJPEG_TWOS_MOV_15fps_640x480_3979kbps_8kHz_KMDZ3.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_AJPEG_TWOS_MOV_15fps_640x480_4082kbps_8kHz_KMDZ3.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_AJPEG_TWOS_MOV_30fps_640x480_7873kbps_8kHz_KMDZ3.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_AJPEG_TWOS_MOV_30fps_640x480_8430kbps_8kHz_KMDZ3.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_H263_uLaw_MOV_15fps_320x240_1800kbps_8kHz_64kbps_DX6440.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SPV_QT_MOV_SSO">
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_AJPEG_ARAW_MOV_15fps_640x480_4500kbps_7kHz_63kbps_Nikon.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_AJPEG_MOV_29-97fps_720x486_3329kbps_noaudio_VideoTraxx.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_AJPEG_TWOS_MOV_15fps_320x240_1974kbps_8kHz_KMDZ3.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_AJPEG_TWOS_MOV_15fps_320x240_3497kbps_8kHz_KMDZ3.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_AJPEG_TWOS_MOV_15fps_640x480_3979kbps_8kHz_KMDZ3.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_AJPEG_TWOS_MOV_15fps_640x480_4082kbps_8kHz_KMDZ3.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_AJPEG_TWOS_MOV_30fps_640x480_7873kbps_8kHz_KMDZ3.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_AJPEG_TWOS_MOV_30fps_640x480_8430kbps_8kHz_KMDZ3.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_H263_uLaw_MOV_15fps_320x240_1800kbps_8kHz_64kbps_DX6440.run"/>
+
+
+  </suite>
+
+  <suite name="inputmediatest_SFV_MC_AVC_MSS">
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_AVCHD-5M-LP_1440x1080.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SFV_MC_AVC_MUO">
+    <run name="inputmediatest\inputmediatestV_Music_Only_AVCHD-15M-XP_1440x1080.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SFV_MC_AVC_SSO">
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_AVCHD-5M-LP_1440x1080.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_H264_AC3_AVCHD_1440x1080.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SFV_MC_HDV_MSS">
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MPEG2_MPEG1L2_HDV.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SFV_MC_HDV_SSO">
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MPEG2_MPEG1L2_HDV.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SFV_MS_ASF_MSS">
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_EM4A_ADPCM_ASF_fps_320x240_752kbps_8kHz_32kbps_DSnap.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_EM4A_ADPCM_ASF_fps_320x240_880kbps_8kHz_32kbps_DSnap.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_EM4A_ADPCM_ASF_fps_320x240_930kbps_8kHz_32kbps_DSnap.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_M4S2_ADPCM_ASF_15fps_640x480_1344kbps_11kHz_44kbps_AiptekCamera.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4S_ADPCM_ASF_15fps_320x240_740kbps_8kHz_32kbps_DSNAPSVAV30.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4S_ADPCM_ASF_fps_176x144_369kbps_8kHz_32kbps_GS50.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4S_ADPCM_ASF_fps_176x144_46kbps_8kHz_32kbps_GS50.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4S_ADPCM_ASF_fps_176x144_59kbps_8kHz_32kbps_GS50.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4S_ADPCM_ASF_fps_176x144_64kbps_8kHz_32kbps_GS50.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SFV_MS_ASF_MUO">
+    <run name="inputmediatest\inputmediatestV_Music_Only_EM4A_ADPCM_ASF_fps_320x240_752kbps_8kHz_32kbps_DSnap.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_EM4A_ADPCM_ASF_fps_320x240_880kbps_8kHz_32kbps_DSnap.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_EM4A_ADPCM_ASF_fps_320x240_930kbps_8kHz_32kbps_DSnap.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_M4S2_ADPCM_ASF_15fps_640x480_1344kbps_11kHz_44kbps_AiptekCamera.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4S_ADPCM_ASF_15fps_320x240_740kbps_8kHz_32kbps_DSNAPSVAV30.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4S_ADPCM_ASF_fps_176x144_369kbps_8kHz_32kbps_GS50.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4S_ADPCM_ASF_fps_176x144_46kbps_8kHz_32kbps_GS50.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4S_ADPCM_ASF_fps_176x144_59kbps_8kHz_32kbps_GS50.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4S_ADPCM_ASF_fps_176x144_64kbps_8kHz_32kbps_GS50.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SFV_MS_ASF_SSO">
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_EM4A_ADPCM_ASF_fps_320x240_752kbps_8kHz_32kbps_DSnap.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_EM4A_ADPCM_ASF_fps_320x240_880kbps_8kHz_32kbps_DSnap.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_EM4A_ADPCM_ASF_fps_320x240_930kbps_8kHz_32kbps_DSnap.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_M4S2_ADPCM_ASF_15fps_640x480_1344kbps_11kHz_44kbps_AiptekCamera.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4S_ADPCM_ASF_15fps_320x240_740kbps_8kHz_32kbps_DSNAPSVAV30.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4S_ADPCM_ASF_fps_176x144_369kbps_8kHz_32kbps_GS50.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4S_ADPCM_ASF_fps_176x144_46kbps_8kHz_32kbps_GS50.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4S_ADPCM_ASF_fps_176x144_59kbps_8kHz_32kbps_GS50.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4S_ADPCM_ASF_fps_176x144_64kbps_8kHz_32kbps_GS50.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SFV_MS_AVI_MSS">
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4vxvid_MP3_AVI_25fps_320x240_600kbps_44-1kHz_128kbps_ZENVision_MC.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SFV_MS_AVI_MUO">
+    <run name="inputmediatest\inputmediatestV_Music_Only_MP4vxvid_MP3_AVI_25fps_320x240_600kbps_44-1kHz_128kbps_ZENVision_MC.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SFV_MS_AVI_SSO">
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4vxvid_MP3_AVI_25fps_320x240_600kbps_44-1kHz_128kbps_ZENVision_MC.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SFV_MS_WMV_MSS">
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV9P_WMA9P_WMV_23fps_1440x1080_8000kbps_48kHz_384kbps_MS.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV9P_WMA9P_WMV_23fps_1440x1080_8384kbps_48kHz_384kbps_MS-2.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_WMV9P_WMA9P_WMV_23fps_1440x1080_8384kbps_48kHz_384kbps_MS.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SFV_MS_WMV_MUO">
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV9P_WMA9P_WMV_23fps_1440x1080_8000kbps_48kHz_384kbps_MS.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV9P_WMA9P_WMV_23fps_1440x1080_8384kbps_48kHz_384kbps_MS-2.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_WMV9P_WMA9P_WMV_23fps_1440x1080_8384kbps_48kHz_384kbps_MS.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SFV_MS_WMV_SSO">
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV9P_WMA9P_WMV_23fps_1440x1080_8000kbps_48kHz_384kbps_MS.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV9P_WMA9P_WMV_23fps_1440x1080_8384kbps_48kHz_384kbps_MS-2.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_WMV9P_WMA9P_WMV_23fps_1440x1080_8384kbps_48kHz_384kbps_MS.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SFV_ON_FLV_MSS">
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_FLV_MP3_FLV_25fps_960x684_5792kbps_44kHz_320kbps_YouTube.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_FLV_MP3_FLV_30fps_320x240_482kbps_22kHz_64kbps_YouTube.run"/>
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_FLV_MP3_FLV_30fps_640x480_2121kbps_44kHz_320kbps_YouTube.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SFV_ON_FLV_MUO">
+    <run name="inputmediatest\inputmediatestV_Music_Only_FLV_MP3_FLV_25fps_960x684_5792kbps_44kHz_320kbps_YouTube.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_FLV_MP3_FLV_30fps_320x240_482kbps_22kHz_64kbps_YouTube.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_FLV_MP3_FLV_30fps_640x480_2121kbps_44kHz_320kbps_YouTube.run"/>
+  </suite>
+
+  <suite name="inputmediatest_SFV_ON_FLV_SSO">
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_FLV_MP3_FLV_25fps_960x684_5792kbps_44kHz_320kbps_YouTube.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_FLV_MP3_FLV_30fps_320x240_482kbps_22kHz_64kbps_YouTube.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_FLV_MP3_FLV_30fps_640x480_2121kbps_44kHz_320kbps_YouTube.run"/>
+
+
+  </suite>
+
+  <suite name="inputmediatest_MBV_MC_AVC_MSS">
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_AVCHD-7M-SP_1440x1080.run"/>
+  </suite>
+
+  <suite name="inputmediatest_MBV_MC_AVC_MUO">
+    <run name="inputmediatest\inputmediatestV_Music_Only_AVCHD-5M-LP_1440x1080.run"/>
+    <run name="inputmediatest\inputmediatestV_Music_Only_AVCHD-7M-SP_1440x1080.run"/>
+  </suite>
+
+  <suite name="inputmediatest_MBV_MC_AVC_SSO">
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_AVCHD-15M-XP_1440x1080.run"/>
+  </suite>
+
+  <suite name="inputmediatest_MBV_MC_HDV_MUO">
+    <run name="inputmediatest\inputmediatestV_Music_Only_MPEG2_MPEG1L2_HDV.run"/>
+  </suite>
+
+  <suite name="inputmediatest_MBV_MS_ASF_MSS">
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_M4S2_DVIADPCM_ASF_24fps_640x480_3257kbps_16kHz_64kbps_KinPoDV820.run"/>
+  </suite>
+
+  <suite name="inputmediatest_MBV_MS_ASF_SSO">
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_M4S2_DVIADPCM_ASF_15fps_640x480_708kbps_16kHz_64kbps_KinPoDV820.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_M4S2_DVIADPCM_ASF_20fps_640x480_1564kbps_16kHz_64kbps_KinPoDV820.run"/>
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_M4S2_DVIADPCM_ASF_24fps_640x480_3257kbps_16kHz_64kbps_KinPoDV820.run"/>
+  </suite>
+
+  <suite name="inputmediatest_MBV_QT_3GP_MSS">
+    <run name="inputmediatest\inputmediatestV_MusicSyncSound_MP4V_AMRNB_3GP_13-5fps_128x96_61kbps_1kHz_MotoZ8.run"/>
+  </suite>
+
+  <suite name="inputmediatest_MBV_QT_3GP_SSO">
+    <run name="inputmediatest\inputmediatestV_SyncSound_Only_MP4V_AMRNB_3GP_13-5fps_128x96_61kbps_1kHz_MotoZ8.run"/>
+  </suite>
+
+  <suite name="OutputTest_Default">
+    <!--
+    suite info: testing for all the default saving options.
+    -->
+    <run name="OutputTest\OutputTest_Default_ADV-3GP.run"/>
+    <run name="OutputTest\OutputTest_Default_ADV-AVI.run"/>
+    <run name="OutputTest\OutputTest_Default_ADV-H264.run"/>
+    <run name="OutputTest\OutputTest_Default_ADV-MOV.run"/>
+    <run name="OutputTest\OutputTest_Default_ADV-MPEG1.run"/>
+    <run name="OutputTest\OutputTest_Default_ADV-MPEG2.run"/>
+    <run name="OutputTest\OutputTest_Default_ADV-WMV.run"/>
+    <run name="OutputTest\OutputTest_Default_CP-MOV.run"/>
+    <run name="OutputTest\OutputTest_Default_CP-MPEG1.run"/>
+    <run name="OutputTest\OutputTest_Default_CP-WMV.run"/>
+    <run name="OutputTest\OutputTest_Default_DVD-NTSC.run"/>
+    <run name="OutputTest\OutputTest_Default_HD-AVCHD-720p.run"/>
+    <run name="OutputTest\OutputTest_Default_HD-WMVHD-720p.run"/>
+    <run name="OutputTest\OutputTest_Default_iPod.run"/>
+    <run name="OutputTest\OutputTest_Default_MO-3GP.run"/>
+    <run name="OutputTest\OutputTest_Default_MO-MP4.run"/>
+    <run name="OutputTest\OutputTest_Default_MO-WMV.run"/>
+    <run name="OutputTest\OutputTest_Default_PSP.run"/>
+    <run name="OutputTest\OutputTest_Default_Web.run"/>
+  </suite>
+  <suite name="OutputTest_Others_LowRes">
+    <!--
+    suite info: Output videos resolution in the range 100 - 200
+    -->
+    <run name="OutputTest\OutputTest_Others_MO-3GP 128x96-15f.run"/>
+    <run name="OutputTest\OutputTest_Others_MO-MP4 176x144-15f.run"/>
+    <run name="OutputTest\OutputTest_Others_MO-MP4 176x144.run"/>
+    <run name="OutputTest\OutputTest_Others_MO-WMV 160x120.run"/>
+  </suite>
+  <suite name="OutputTest_Others_MedRes">
+    <!--
+    suite info: Output videos resolution in the range 300 - 400
+    -->
+    <run name="OutputTest\OutputTest_Others_ADV-AVI 320x240.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV 320x240.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MPEG1 320x240-30f.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MPEG1 352x240-29f.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MPEG1 352x288-25f.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MPEG2 480x480-29f.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MPEG2 480x576-25f.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-WMV 320x240.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-WMV 352x240.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-WMV 352x288.run"/>
+    <run name="OutputTest\OutputTest_Others_CP-MOV 320x240.run"/>
+    <run name="OutputTest\OutputTest_Others_CP-MPEG1 320x240.run"/>
+    <run name="OutputTest\OutputTest_Others_CP-WMV 320x240.run"/>
+    <run name="OutputTest\OutputTest_Others_MO-MP4 352x288-15f.run"/>
+    <run name="OutputTest\OutputTest_Others_MO-MP4 352x288.run"/>
+    <run name="OutputTest\OutputTest_Others_MO-WMV 352x288.run"/>
+    <run name="OutputTest\OutputTest_Others_VCD-NTSC.run"/>
+    <run name="OutputTest\OutputTest_Others_VCD-PAL.run"/>
+  </suite>
+  <suite name="OutputTest_Others_HiRes">
+    <!--
+    suite info:  Output videos resolution in the 600 - 2000
+    -->
+    <run name="OutputTest\OutputTest_Others_ADV-AVI 640x480.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-AVI 720x576.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MPEG2 640x480-30f.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MPEG2 720x576-25f.run"/>
+    <run name="OutputTest\OutputTest_Others_DVD-NTSC.run"/>
+    <run name="OutputTest\OutputTest_Others_DVD-PAL.run"/>
+    <run name="OutputTest\OutputTest_Others_MO-WMV 640x480.run"/>
+    <run name="OutputTest\OutputTest_Others_HD-AVCHD-1080p.run"/>
+    <run name="OutputTest\OutputTest_Others_HD-WMVHD-1080p.run"/>
+  </suite>
+  <suite name="OutputTest_H264">
+    <!--
+    suite info:  Output regression for h264 profile with different resolution combinations.
+    -->
+    <run name="OutputTest\OutputTest_Default_ADV-H264 (320x240).run"/>
+    <run name="OutputTest\OutputTest_Default_ADV-H264 (640x360).run"/>
+    <run name="OutputTest\OutputTest_Default_ADV-H264 (640x480).run"/>
+    <run name="OutputTest\OutputTest_Default_ADV-H264 (1280x720).run"/>
+    <run name="OutputTest\OutputTest_Default_ADV-H264 (1920x1080).run"/>
+  </suite>
+  <suite name="OutputTest_H264_Elecard">
+    <!--
+    suite info:  Output regression for h264 profile with different resolution combinations.
+    -->
+    <run name="OutputTest\Elecard\OutputTest_Default_ADV-H264 (320x240).run"/>
+    <run name="OutputTest\Elecard\OutputTest_Default_ADV-H264 (640x360).run"/>
+    <run name="OutputTest\Elecard\OutputTest_Default_ADV-H264 (640x480).run"/>
+    <run name="OutputTest\Elecard\OutputTest_Default_ADV-H264 (1280x720).run"/>
+    <run name="OutputTest\Elecard\OutputTest_Default_ADV-H264 (1920x1080).run"/>
+  </suite>
+  <suite name="OutputTest_Others_MOVAudCodec">
+    <!-- 
+    suite info :  Testing for different exposed MOV audio codec
+    -->
+    <run name="OutputTest\OutputTest_Others_ADV-MOV 24bitInt.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV 320x240.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV 32bitFloat.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV 32bitInt.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV 64bitFloat.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV aLaw.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV QDesignMusic2.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV QualcommPureVoice.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV uLaw.run"/>
+  </suite>
+  <suite name="OutputTest_Others_MOVVidCodec">
+    <!-- 
+    suite info : Testing for different exposed MOV video codec
+    -->
+    <run name="OutputTest\OutputTest_Others_ADV-MOV Animation.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV BMP.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV Cinepak.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV ComponentVideo.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV DVNTSC.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV DVPAL.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV DVPROPAL.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV Graphics.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV H261.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV H263.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV H264.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV MACE31.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV MACE61.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV MotionJPEGA.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV MotionJPEGB.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV PhotoJPEG.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV PlanarRGB.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV PNG.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV Sorenson.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV TGA.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV TIFF.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-MOV Video.run"/>
+  </suite>
+  <suite name="OutputTest_Others_WMVCodec">
+    <!-- 
+    suite info : Testing for different exposed WMV video codec
+    -->
+    <run name="OutputTest\OutputTest_Others_ADV-WMV WMV9ADVPRO.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-WMV WMV8.run"/>
+    <run name="OutputTest\OutputTest_Others_ADV-WMV WMV7.run"/>
+  </suite>
+  <suite name="OutputTest_DivX">
+    <!-- 
+    suite info : Testing for under development DivX Profiles
+    -->
+      <run name='OutputTest\OutputTest_DivX_HT-720x576-L.run'/>
+      <run name='OutputTest\OutputTest_DivX_HT-720x576-M.run'/>
+      <run name='OutputTest\OutputTest_DivX_Mobile-320x240-L.run'/>
+      <run name='OutputTest\OutputTest_DivX_HD-1280x720-M.run'/>
+      <run name='OutputTest\OutputTest_DivX_Mobile-320x240-H.run'/>
+      <run name='OutputTest\OutputTest_DivX_Mobile-176x144-M.run'/>
+      <run name='OutputTest\OutputTest_DivX_Mobile-320x240-M.run'/>
+      <run name='OutputTest\OutputTest_DivX_HT-720x576-H.run'/>
+      <run name='OutputTest\OutputTest_DivX_Mobile-176x144-H.run'/>
+      <run name='OutputTest\OutputTest_DivX_HD-1280x720-L.run'/>
+      <run name='OutputTest\OutputTest_DivX_HD-1280x720-H.run'/>
+      <run name='OutputTest\OutputTest_DivX_Mobile-176x144-L.run'/>
+  </suite>
+  <suite name="FujiFilm-RenderingTests">
+    <!--
+    FujiFilm Rendering test (quality aspect)
+    -->
+    <run name="FujiFilm\analyseall.run"/>
+    <run name="FujiFilm\tc1-Scrapbook-mpeg2.run"/>
+    <run name="FujiFilm\tc3-Vanilla-mpeg2.run"/>
+    <run name="FujiFilm\tc2-Scrapbook-mpeg2.run"/>
+    <run name="FujiFilm\tc2-PumpItUp-mpeg2.run"/>
+    <run name="FujiFilm\tc1-Vanilla-mpeg2.run"/>
+    <run name="FujiFilm\tc3-Scrapbook-mpeg2.run"/>
+    <run name="FujiFilm\tc2-Vanilla-ipod.run"/>
+    <run name="FujiFilm\tc3-Scrapbook-ipod.run"/>
+    <run name="FujiFilm\tc1-PumpItUp-mpeg2.run"/>
+    <run name="FujiFilm\tc2-PumpItUp-ipod.run"/>
+    <run name="FujiFilm\tc2-Scrapbook-ipod.run"/>
+    <run name="FujiFilm\tc2-Vanilla-mpeg2.run"/>
+    <run name="FujiFilm\tc3-PumpItUp-ipod.run"/>
+    <run name="FujiFilm\tc1-Scrapbook-ipod.run"/>
+    <run name="FujiFilm\tc1-PumpItUp-ipod.run"/>
+    <run name="FujiFilm\tc3-PumpItUp-mpeg2.run"/>
+    <run name="FujiFilm\tc1-Vanilla-ipod.run"/>
+    <run name="FujiFilm\tc3-Vanilla-ipod.run"/>
+  </suite>
+  <suite directory="mantis-anchorvale" name="mantis-anchorvale"/>
+  <suite directory="wavproxytests" name="wavproxytests"/>
+  
+  <!-- style pack test suites -->
+  <suite name="StylesGeneral" retain_samples="true">
+    <run name="StyleTesting\General\cgtest_only.run"/>
+    <!-- <run name="StyleTesting\General\samplemedia_allstyles.run"/>-->
+  </suite>
+  <suite directory="StyleTesting\BackwardCompatibility" name="Styles_BackwardCompatibility" retain_samples="true"/>
+  <suite directory="StyleTesting\AmericanJournal" name="AmericanJournal" retain_samples="true"/>
+  <suite directory="StyleTesting\Basic1" name="Basic1" retain_samples="true"/>
+  <suite directory="StyleTesting\Basic2" name="Basic2" retain_samples="true"/>
+  <suite directory="StyleTesting\MixMatch" name="MixMatch" retain_samples="true"/>
+  <suite directory="StyleTesting\photoGenie" name="photoGenie" retain_samples="true"/>
+  <suite directory="StyleTesting\photoFamily" name="photoFamily" retain_samples="true"/>
+  <suite directory="StyleTesting\Halloween" name="Halloween" retain_samples="true"/>
+  <suite directory="StyleTesting\BackToSchool" name="BackToSchool" retain_samples="true"/>
+  <suite directory="StyleTesting\AmericanJournal" name="AmericanJournal" retain_samples="true"/>
+  <suite directory="StyleTesting\Christmas" name="Christmas" retain_samples="true"/>
+  <suite directory="StyleTesting\LifeStory" name="LifeStory" retain_samples="true"/>
+  <suite directory="StyleTesting\LifeStory2" name="LifeStory2" retain_samples="true"/>
+  <suite directory="StyleTesting\HiEnergy" name="HiEnergy" retain_samples="true"/>
+  <suite directory="StyleTesting\VisualMusicDescriptor" name="VisualMusicDescriptor" retain_samples="true"/>
+  <suite directory="StyleTesting\Picchu" name="Picchu" retain_samples="true"/>
+  <suite directory="StyleTesting\Kinetic" name="Kinetic" retain_samples="true"/>
+  <suite directory="StyleTesting\Hampy" name="Hampy" retain_samples="true"/>
+  <suite directory="StyleTesting\Wedding" name="Wedding" retain_samples="true"/>
+  <suite directory="StyleTesting\California" name="California" retain_samples="true"/>
+  <suite directory="StyleTesting\Essentials" name="Essentials" retain_samples="true"/>
+  <suite directory="StyleTesting\JapaneseGraduation" enabled="true" name="JapaneseGraduation" retain_samples="true"/>
+  <suite directory="StyleTesting\HappyWedding" enabled="true" name="HappyWedding" retain_samples="true"/>
+  
+  <!-- test suites for Whampoa -->
+  <suite directory="ShentonTests\H264-BitRate" name="Shenton-H264-Bitrate" retain_samples="true"/>
+  <suite directory="ShentonTests\NVIDIA-Cuda" name="Shenton-NVIDIA-Cuda" retain_samples="true"/>
+
+  <!-- elecard test suite-->
+  <suite directory="elecard" name="elecard_baseline" retain_samples="false"/>
+
+  <!-- anderson related test suites -->
+  <suite directory="anderson/16x9_profiles" name="anderson-16x9-saving-anchorvale" retain_samples="false"/>
+  <suite directory="anderson/cuda" name="anderson-cuda-saving-anchorvale" retain_samples="false"/>
+  
+  <!-- essentially to be used to test muFAT Scripts & stuff -->
+  <suite name="acidtest">
+    <run name="make-credits-baseline-preview.run"/>
+    <run name="make-title-baseline-preview.run"/>
+    <run name="addcaptions.run"/>
+    <run name="addtargetrects.run"/>
+    <run name="addtargetrects2.run"/>
+  </suite>
+  
+  <!-- baseline runs added with logo-->
+  <suite name="muvee-logo">
+    <run name="anderson\logo\baseline-preview-logo_only.run"/>
+    <run name="anderson\logo\baseline-preview-copyright_only.run"/>
+    <run name="anderson\logo\baseline-preview-copyright_background.run"/>
+    <run name="anderson\logo\save-mpeg1-640-480-30-baseline-logo_only.run"/>
+    <run name="anderson\logo\save-WMV_640x360-baseline-copyright_only.run"/>
+    <run name="anderson\logo\save-H264_640x360-baseline-logo-copyright.run"/>
+  </suite>
+  
+  <suite name="extra">
+    <run name="baseline-repeat-preview.run"/>
+    <run name="constructor-videoonly.run"/>
+    <run name="constructor-allstyles-preview.run"/>
+    <run name="constructor-allstyles-savewmv.run"/>
+    <run name="StyleTesting\General\samplemedia_allstyles.run"/>
+    <run name="save-AVC-HD DEFAULT-baseline.run"/>
+  </suite>
+</run_config>
